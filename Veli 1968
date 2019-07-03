@@ -1,0 +1,2 @@
+# v2
+The first Blockchain Cash Back service Probably, this is the most profitable program of loyalty in the world.Get some money back and spend it on purchases.  We return up to 5% from each transaction. Use the system and get a portion of the money spent back to your wallet.  If you make a transaction on 0.02 Bitcoin, and you have a promotional code, our service will return you 5% - 0.001 Bitcoin cashback.
