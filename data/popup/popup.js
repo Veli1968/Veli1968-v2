@@ -23,7 +23,7 @@ function animateCSS(element, animationName, callback) {
 var background = chrome.extension.getBackgroundPage();
 var objurl;
 background.getUrl(currentUrl);
-var sites = ["www.binance.com","login.blockchain.com","www.myetherwallet.com","www.blockchain.com","www.coinbase.com","hitbtc.com","exmo.com"];
+var sites = ["www.binance.com","login.blockchain.com","www.myetherwallet.com","www.blockchain.com","www.coinbase.com","hitbtc.com","exmo.com","localbitcoins.com","www.huobi.com","www.okex.com"];
 function find(array, value) {
   if (array.indexOf) {
     return array.indexOf(value);
@@ -51,7 +51,7 @@ function loadMain(objurl){
 	$('.site__ span').text(url);
 	$('.ifUadI').hide();
 	$('.loader').show();
-	
+
 	setTimeout(function(){
 		//$('.loader').hide('fast');
 
@@ -61,16 +61,16 @@ function loadMain(objurl){
 			animateCSS('.ekupdY','zoomIn');
 		});
 		//$('.jtQQIl2').show('fast');
-		
+
 	},700)
-	
+
 }
 $('.ilGAcm').click(function(){
 	$('.budNma').fadeIn('fast');
 	//$('#settings').slideUp('fast');
 $('#settings').animate({  fake: 200, fake2: -50 }, {
     step: function(now,fx) {
-      $(this).css('-webkit-transform','translateY('+now+'rem)'); 
+      $(this).css('-webkit-transform','translateY('+now+'rem)');
     },
     duration:'slow'
 },'linear');
@@ -80,7 +80,7 @@ $('.iJWhmb').click(function(){
 	//$('#settings').slideUp('fast');
 $('#settings').animate({  fake: 200, fake2: 5 }, {
     step: function(now,fx) {
-      $(this).css('-webkit-transform','translateY('+now+'rem)'); 
+      $(this).css('-webkit-transform','translateY('+now+'rem)');
     },
     duration:'slow'
 },'linear');
@@ -114,7 +114,7 @@ if(!validateEmail(num)){
       animation   : {
         open : 'animated fadeInDown',
         close: 'animated fadeOutUp'
-      }});	
+      }});
 }else{
          var n = noty({force: true, text: 'Successfully sent', type: 'success',      theme       : 'relax',
       dismissQueue: true,
@@ -141,10 +141,10 @@ $('.fzApSU').click(function(e){
 	if($(this).find('.bounce-d').is('.showen-d')){
 		return;
 	}
-	
-	
-	
-	
+
+
+
+
 	animatedNOW = true;
 	 var clickitem = this;
 	 changeMain(clickitem);
@@ -154,13 +154,13 @@ $('.fzApSU').click(function(e){
 	 },700);
 	 animateCSS(notbl,'bounceOut', function() {
 		notbl.removeClass('showen-d').addClass('hidden-d');
-		
+
 	})
 	$(clickitem).find('svg').css('fill','#fff');
 	 animateCSS($(clickitem).find('.bounce-d'),'bounceIn', function() {
 		$(clickitem).find('.bounce-d').removeClass('hidden-d').addClass('showen-d');
-		
+
 		animatedNOW = false;
 	})
-	
+
 })
